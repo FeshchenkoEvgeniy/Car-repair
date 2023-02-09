@@ -1,0 +1,35 @@
+.address__list{
+    display: flex;
+    position: absolute;
+}
+.address__icon{
+    fill: black;
+}
+.address__item:not(:last-child){
+    margin-right: 21px;
+}
+.address__item{
+    position: relative;
+    width: 386px;
+    height: 196px;
+    padding: 39px 0px 0px 39px;
+    top: -115px;
+    background-color: var(--main-bg-color);
+    box-shadow: 0px 0px 15px 0px #00000040;
+}
+.address-icon__box{
+    margin-bottom: 21px;
+}
+.address__title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.15em;
+    margin-bottom: 15px;
+}
+.address__text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: var(--second-main-color);
+}

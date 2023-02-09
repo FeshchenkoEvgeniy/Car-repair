@@ -2,7 +2,7 @@
     background-image: url(/src/images/hero-header.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    // height: 930px;
+    margin: 0 auto;
     max-width: 1680px;
 }
 .header-logo{
@@ -13,35 +13,35 @@
     align-items: center;
     padding-top: 22px;
 }
-.header-menu__item{
+.header-menu__list{
     margin-right: 282px;
 }
-.header-menu__item,
+.header-menu__list,
 .menu,
-.language-switcher__item{
+.language-switcher__list{
     display: flex;
     align-items: center;
 }
-.header-menu__items:not(:last-child) {
+.header-menu__item:not(:last-child) {
     margin-right: 35px;
 }
-.language-switcher__items:not(:last-child){
+.language-switcher__item:not(:last-child){
     margin-right: 8px;
 }
 .header-menu__link,
-.language-switcher__items{
+.language-switcher__item{
     font-weight: 600;
     text-transform: uppercase;
     color: var(--main-color);
 } 
 .header-menu__link:hover,
 .header-menu__link:focus{
-    border-bottom: 1px solid var(--main-color);
+    border-bottom: 2px solid var(--main-color);
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .hero__container{
-    padding-top: 208px;
-    padding-bottom: 408px;
+    padding-top: 165px;
+    padding-bottom: 305px;
 }
 .hero__title{
     font-weight: 700;
